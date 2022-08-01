@@ -54,7 +54,10 @@
       } 
       .right-col-automation{
         width: 100%;
-      } 
+      }
+      .image-info-col {
+        width: 100%;
+      }
     }
   </style>
 </head>
@@ -116,16 +119,12 @@
                 <tr>
                   <td>
                     <!-- Start row 1 header -->
-                    <tr>
-                      <td v-align="top">
-                        <h1 class="section-title"
-                            style="text-align: center; font-size: 1.5rem; font-weight: 700; margin-top: 0px !important;margin-bottom: 0px !important;
-                            padding-top: 25px; padding-bottom: 25px;">
-                          COVID-19 Precautions, <br style="margin-bottom: 5px;">
-                          Automated Sanitation
-                        </h1>
-                      </td>
-                    </tr>
+                    <h1 class="section-title"
+                        style="text-align: center; font-size: 1.5rem; font-weight: 700; margin-top: 0px !important;margin-bottom: 0px !important;
+                        padding-top: 25px; padding-bottom: 25px;">
+                      COVID-19 Precautions, <br style="margin-bottom: 5px;">
+                      Automated Sanitation
+                    </h1>
                     <!-- End row 1  header -->
                     <!-- Start row 1  p-graph -->
                     <tr>
@@ -169,14 +168,10 @@
                 <tr>
                   <td>
                     <!-- Start row 2  header  -->
-                    <tr>
-                      <td v-align="top">
-                        <h1 class="section-title"
-                            style="text-align: center; font-size: 1.5rem; font-weight: 700; margin-top: 0px !important;margin-bottom: 0px !important; padding-top: 25px; padding-bottom: 25px;">
-                          Curious About Automation Work?
-                        </h1>
-                      </td>
-                    </tr>
+                    <h1 class="section-title"
+                        style="text-align: center; font-size: 1.5rem; font-weight: 700; margin-top: 0px !important;margin-bottom: 0px !important; padding-top: 25px; padding-bottom: 25px;">
+                      Curious About Automation Work?
+                    </h1>
                     <!-- End row 2  header  -->
                     <!-- Start row 2 p-graph  -->
                     <tr>
@@ -207,8 +202,7 @@
                     <tr>
                       <td valign="top">
                         <table width="100%" cellspacing="0"
-                                cellpadding="0" border="0"
-                                style="border-collapse: collapse;">
+                                cellpadding="0" border="0">
                           <tr>
                             <td valign="top">
                               <img src="/img/hero-img.jpg" alt="hero"
@@ -252,171 +246,148 @@
                 <!-- Start info section row 3 -->
                 <tr>
                   <td>
+                   <table width="100%" cellspacing="0" cellpadding="0" border="0"style="background: #f5deb3;">
                     <!-- Start row 3 header  -->
-                  <tr>
-                    <td v-align="top">
-                      <h1 class="section-title"
-                          style="text-align: center; font-size: 1.5rem; font-weight: 700; margin-top: 0px !important;margin-bottom: 0px !important; padding-top: 25px; padding-bottom: 25px;">
-                        Should You Use Automation Systems?
-                      </h1>
-                    </td>
-                  </tr>
-                  <!-- End row 3 header  -->
-                  <!-- Start image & info section -->
-                  <tr>
-                    <td>
-                      <table cellspacing="0" cellpadding="0" width="100%" border="0" style="background-color: #f5deb3; margin-bottom: 15px;">
-                        <tr>
-                          <td>
-                            <!-- Start left col -->
-                            <table class="left-col-automation" align="left" cellspacing="0" cellpadding="0"
-                                    width="30%" border="0">
-                              <tr>
-                                <td valign="top">
-                                  <img src="/img/wash-img.jpg" alt="Wash your hands"  style="width: 100%; height: 250px; object-fit: cover; background-size: cover; display: block;">
-                                </td>
-                              </tr>
-                            </table>
-                            <!-- End left col -->
-                            <!-- Start right col -->
-                            <table class="right-col-automation"  align="right" cellspacing="0" cellpadding="0"
-                                    width="70%" border="0">
-                              <tr>
-                                <td valign="top" style="padding-top: 5px; padding-left: 10px; padding-right: 10px; padding-bottom: 5px; line-height: 2;">
-                                  Consider putting a wipeable cover on electronics (for
-                                  example, phones, tablets, touchscreens, keyboards, and
-                                  remote controls) to make cleaning easier.
-                                  Follow the manufacturer’s instructions for cleaning the
-                                  electronic device.
-                                  If needed, use a disinfectant from the EPA List Nexternal
-                                  icon but note that many of the products for electronics
-                                  contain alcohol because it dries quickly.
-                                </td>
-                              </tr>
-                            </table>
-                            <!-- End right col -->
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <!-- End image & info section -->
-
-                  <!-- Start image & info section -->
-                  <tr>
-                    <td>
-                      <table cellspacing="0" cellpadding="0" width="100%"
-                              border="0"
-                              style="background-color: #f5deb3; margin-bottom: 15px;">
+                    <h1 class="section-title"
+                        style="text-align: center; font-size: 1.5rem; font-weight: 700; margin-top: 0px !important;margin-bottom: 0px !important; padding-top: 25px; padding-bottom: 25px;">
+                      Should You Use Automation Systems?
+                    </h1>
+                    <!-- End row 3 header  -->
+                    
+                    <tr>
+                      <td>
+                        <!-- Start left column -->
+                        <table align="left" class="image-info-col"
+                               cellspacing="0" cellpadding="0" width="33.33%"
+                               border="0" style="margin: 20px 0;">
                           <tr>
-                            <td>
-                              <!-- Start left col -->
-                              <table class="left-col-automation"  align="left" cellspacing="0"
-                                      cellpadding="0"
-                                      width="30%" border="0">
-                                <tr>
-                                  <td valign="top">
-                                    <img src="/img/clock-img.jpg"
-                                          alt="Wash your hands"
-                                          style="width: 100%; height: 250px; object-fit: cover; background-size: cover; display: block;">
-                                  </td>
-                                </tr>
-                              </table>
-                              <!-- End left col -->
-                              <!-- Start right col -->
-                              <table class="right-col-automation"  align="right" cellspacing="0"
-                                      cellpadding="0"
-                                      width="70%" border="0">
-                                <tr>
-                                  <td valign="top"
-                                    style="padding-top: 5px; padding-left: 10px; padding-right: 10px; padding-bottom: 5px; line-height: 2;">
-                                      Clean the soft surfaces (carpets, rugs, and drapes) with
-                                      soap and water or with cleaners made for use on these
-                                      surfaces.
-                                      Launder items (if possible) using the warmest appropriate
-                                      water setting and dry items completely.
-                                      Disinfect using an EPA List Nexternal icon product for use
-                                      on soft surfaces, if needed.
-                                      Vacuum as usual. If vacuuming an area occupied by a sick
-                                      person or someone positive for COVID-19 in the last 24
-                                      hours, wear a mask when vacuuming.
-                                  </td>
-                                </tr>
-                              </table>
-                              <!-- End right col -->
+                            <td align="center" valign="top">
+                              <img src="/img/wash-img.jpg" alt="Wash your hands"
+                                   style="height: 200px;  object-fit: cover; background-size: cover; display: block;">
                             </td>
                           </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <!-- End image & info section -->
-
-                  <!-- Start image & info section -->
-                  <tr>
-                    <td>
-                      <table cellspacing="0" cellpadding="0" width="100%"
-                              border="0"
-                              style="background-color: #f5deb3; margin-bottom: 15px;">
-                        <tr>
-                          <td>
-                            <!-- Start left col -->
-                            <table class="left-col-automation"  align="left" cellspacing="0"
-                                    cellpadding="0"
-                                    width="30%" border="0">
-                              <tr>
-                                <td valign="top">
-                                  <img src="/img/trash-img.jpg"
-                                        alt="Wash your hands"
-                                        style="width: 100%; height: 250px; object-fit: cover; background-size: cover; display: block;">
-                                </td>
-                              </tr>
-                            </table>
-                            <!-- End left col -->
-                            <!-- Start right col -->
-                            <table class="right-col-automation" cellspacing="0" cellpadding="0" width="70%" border="0">
-                              <tr>
-                                <td valign="top"
-                                    style="padding-top: 5px; padding-left: 10px; padding-right: 10px; padding-bottom: 5px; line-height: 2;">
-                                    Use the warmest appropriate water setting and dry items
-                                    completely.
-                                    It is safe to wash dirty laundry from a person who is sick
-                                    with other people’s items.
-                                    If handling dirty laundry from a person who is sick, wear
-                                    gloves and a mask.
-                                    Clean clothes hampers or laundry baskets according to
-                                    guidance for surfaces.
-                                    Wash hands after handling dirty laundry.
-                                </td>
-                              </tr>
-                            </table>
-                            <!-- End right col -->
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <!-- End image & info section -->
-
-                <!-- Start cta button -->
-                <tr>
-                  <td class="cta-btn-section" style="padding: 50px 0px;">
-                    <table align="center" width="200" cellspacing="0"
-                           cellpadding="0" border="0"
-                           style="border-collapse: collapse; background-color: #52cffe;">
-                      <tr>
-                        <td
-                            style=" text-align: center; padding-top: 10px; padding-bottom: 10px;">
-                          <a href="#"
-                             style="text-decoration: none; color: black; font-weight: 600; font-size: 1.2rem;">
-                            Learn More
-                          </a>
-                        </td>
-                      </tr>
-                    </table>
+                          <tr>
+                            <td align="center" valign="top">
+                              <h4 class="image-info-title"
+                                  style="margin: 0px; padding-top: 15px;font-size: 1rem;">
+                                Electronics</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top"
+                                style="padding-top: 10px; padding-left: 5px; padding-right: 5px; padding-bottom: 10px; line-height: 1.5;">
+                                  If needed, use a disinfectant from the EPA List Nexternal
+                                  icon but note that many of the products for electronics...
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top">
+                              <a href="#"
+                                 style="text-decoration: none; color: black; font-weight: 600; font-size: .9rem;">
+                                Learn More
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End left column-->
+                        <!-- Start left column -->
+                        <table align="left" class="image-info-col"
+                               cellspacing="0" cellpadding="0" width="33.33%"
+                               border="0" style="margin: 20px 0;">
+                          <tr>
+                            <td align="center" valign="top">
+                              <img src="/img/clock-img.jpg"
+                                   alt="Clock image"
+                                   style="height: 200px;  object-fit: cover; background-size: cover; display: block;">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top">
+                              <h4 class="image-info-title"
+                                  style="margin: 0px; padding-top: 15px;font-size: 1rem;">
+                                Timing</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top"
+                                style="padding-top: 10px; padding-left: 5px; padding-right: 5px; padding-bottom: 10px; line-height: 1.5;">
+                                  Clean the soft surfaces (carpets, rugs, and
+                                  drapes) with
+                                  soap and water or with cleaners made for use...
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top">
+                              <a href="#"
+                                 style="text-decoration: none; color: black; font-weight: 600; font-size: .9rem;">
+                                Learn More
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End left column-->
+                        <!-- Start left column -->
+                        <table align="left" class="image-info-col"
+                               cellspacing="0" cellpadding="0" width="33.33%"
+                               border="0" style="margin: 20px 0;">
+                          <tr>
+                            <td align="center" valign="top">
+                              <img src="/img/trash-img.jpg"
+                                   alt="Trash image"
+                                   style="height: 200px; object-fit: cover; background-size: cover; display: block;">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top">
+                              <h4 class="image-info-title"
+                                  style="margin: 0px; padding-top: 15px;font-size: 1rem;">
+                                Disposal</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top"
+                                style="padding-top: 10px; padding-left: 5px; padding-right: 5px; padding-bottom: 10px; line-height: 1.5;">
+                                  Use the warmest appropriate water setting
+                                  and dry items
+                                  completely.
+                                  It is safe to wash...
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top">
+                              <a href="#"
+                                 style="text-decoration: none; color: black; font-weight: 600; font-size: .9rem;">
+                                Learn More
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- End left column-->
+                        
+                      </td>
+                    </tr>
+                    
+                    <!-- Start cta button -->
+                    <tr>
+                      <td class="cta-btn-section" style="padding: 50px 0px;">
+                        <table align="center" width="200" cellspacing="0"
+                               cellpadding="0" border="0"
+                               style="border-collapse: collapse; background-color: #52cffe;">
+                          <tr>
+                            <td
+                                style=" text-align: center; padding-top: 10px; padding-bottom: 10px;">
+                              <a href="#"
+                                 style="text-decoration: none; color: black; font-weight: 600; font-size: 1.2rem;">
+                                Learn More
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- End cta button -->
+                   </table>
                   </td>
-                </tr>
-                <!-- End cta button -->
-                </td>
                 </tr>
                 <!-- End info section row 3 -->
 
@@ -433,43 +404,43 @@
                 <!-- Start socials -->
                 <tr>
                   <td>
-                <tr>
-                  <td align="center" valign="top">
-                    <h3
-                        style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; letter-spacing: 1px;">
-                      #LiveSafeBeFree
-                    </h3>
+                    <tr>
+                      <td align="center" valign="top">
+                        <h3
+                            style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; letter-spacing: 1px;">
+                          #LiveSafeBeFree
+                        </h3>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top">
+                        <table style="width: 175px; text-align: center"
+                              width="100%" border="0" cellspacing="0"
+                              cellpadding="0" align="center">
+                          <tr>
+                            <td valign="top" align="center">
+                              <a href="#">
+                                <img src="https://safeitco.netlify.app/img/facebook_icon.png"
+                                    alt="facebook icon">
+                              </a>
+                            </td>
+                            <td valign="top" align="center">
+                              <a href="#">
+                                <img src="https://safeitco.netlify.app/img/twitter_icon.png"
+                                    alt="facebook icon">
+                              </a>
+                            </td>
+                            <td valign="top" align="center">
+                              <a href="#">
+                                <img src="https://safeitco.netlify.app/img/youtube_icon.png"
+                                    alt="facebook icon">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
                   </td>
-                </tr>
-                <tr>
-                  <td valign="top">
-                    <table style="width: 175px; text-align: center"
-                           width="100%" border="0" cellspacing="0"
-                           cellpadding="0" align="center">
-                      <tr>
-                        <td valign="top" align="center">
-                          <a href="#">
-                            <img src="https://safeitco.netlify.app/img/facebook_icon.png"
-                                 alt="facebook icon">
-                          </a>
-                        </td>
-                        <td valign="top" align="center">
-                          <a href="#">
-                            <img src="https://safeitco.netlify.app/img/twitter_icon.png"
-                                 alt="facebook icon">
-                          </a>
-                        </td>
-                        <td valign="top" align="center">
-                          <a href="#">
-                            <img src="https://safeitco.netlify.app/img/youtube_icon.png"
-                                 alt="facebook icon">
-                          </a>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                </td>
                 </tr>
                 <!-- End socials -->
                 <!-- Terms Row Start -->
