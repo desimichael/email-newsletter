@@ -43,7 +43,12 @@
       }
 
       .image-info-col {
-        width: 100%;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 428px) {
+      .image-info-col {
+        width: 100% !important;
       }
     }
   </style>
@@ -52,15 +57,20 @@
 <body>
 
   <!-- Global table background start -->
-  <table class="main-table" cellspacing="0" cellpadding="0"
-         width="100%" border="0"
-         style="background: #f0f8ff;">
+  <table 
+      role="presentation"
+      class="main-table" 
+      cellspacing="0" 
+      cellpadding="0"
+      width="100%" 
+      border="0"
+      style="background: #f0f8ff; background-color: #f0f8ff;">
     <tr>
       <td>
 
         <!-- Start container  -->
         <table class="container" width="600" align="center"
-               cellspacing="0" cellpadding="0" border="0">
+               cellspacing="0" cellpadding="0" border="0" style="max-width: 600px;">
 
           <!-- Start of header row -->
           <!--[if mso]>
@@ -296,8 +306,8 @@
                                 <table align="left"
                                       class="image-info-col"
                                       cellspacing="0" cellpadding="0"
-                                      width="33.33%"
-                                      border="0">
+                                      border="0"
+                                      style="width: 33.33%; min-width: 150px;">
                                   <tr>
                                     <td align="left" valign="top">
                                       <img src="https://i.imgur.com/OICgr6m.jpeg"
@@ -318,9 +328,8 @@
                                       If needed, use a disinfectant from
                                       the EPA List
                                       Nexternal
-                                      icon. but note that many of the
-                                      products for
-                                      electronics...
+                                      icon. Note that many of the
+                                      products...
                                     </td>
                                   </tr>
                                   <tr>
@@ -338,8 +347,8 @@
                                 <table align="left"
                                       class="image-info-col"
                                       cellspacing="0" cellpadding="0"
-                                      width="33.33%"
-                                      border="0">
+                                      border="0"
+                                      style="width: 33.33%; min-width: 150px;">
                                   <tr>
                                     <td align="left" valign="top"
                                         style="padding: 0 10px;">
@@ -380,8 +389,8 @@
                                 <table align="left"
                                       class="image-info-col"
                                       cellspacing="0" cellpadding="0"
-                                      width="33.33%"
-                                      border="0">
+                                      border="0"
+                                      style="width: 33.33%; min-width: 150px;">
                                   <tr>
                                     <td align="left" valign="top">
                                       <img src="https://i.imgur.com/9ulT126.jpeg"
